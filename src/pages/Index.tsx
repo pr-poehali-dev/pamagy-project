@@ -13,6 +13,7 @@ const Index = () => {
 
       <main>
         <ImageGallery title="Посейдон" />
+        <ImageGallery title="Кламс" />
       </main>
     </div>
   );
