@@ -1,12 +1,19 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import RainbowTitle from "@/components/RainbowTitle";
+import ImageGallery from "@/components/ImageGallery";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
-      </div>
+    <div className="min-h-screen bg-white">
+      <header className="text-center py-16 bg-gradient-to-b from-gray-50 to-white">
+        <RainbowTitle>Сашок</RainbowTitle>
+        <p className="text-xl text-gray-600 max-w-2xl mx-auto px-4">
+          Онлайн-маркетплейс уникальных изображений
+        </p>
+      </header>
+
+      <main>
+        <ImageGallery title="Посейдон" />
+      </main>
     </div>
   );
 };
